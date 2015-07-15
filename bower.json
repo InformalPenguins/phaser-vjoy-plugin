@@ -1,0 +1,30 @@
+{
+  "name": "vjoy",
+  "version": "0.1.0",
+  "homepage": "https://github.com/InformalPenguins/phaser-vjoy-plugin",
+  "authors": [
+    "tonymtz <atony.mtz@gmail.com>"
+  ],
+  "description": "Virtual joystick plugin for Phaser.io",
+  "main": "src/vjoy.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "vjoy",
+    "virtual",
+    "joystick",
+    "phaser",
+    "plugin",
+    "touch",
+    "control"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
