@@ -49,6 +49,10 @@
   };
 
   Phaser.Plugin.VJoy.prototype.inputEnable = function (x1, y1, x2, y2) {
+    x1 = x1 || 0;
+    y1 = y1 || 0;
+    x2 = x2 || this.game.width;
+    y2 = y2 || this.game.height;
     this.zone = new Phaser.Rectangle(x1, y1, x2, y2);
     this.input.onDown.add(createCompass, this);
   };

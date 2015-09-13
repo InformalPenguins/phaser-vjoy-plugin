@@ -19,7 +19,7 @@
       sprite = game.add.sprite(300, 300, 'player');
 
       game.vjoy = game.plugins.add(Phaser.Plugin.VJoy);
-      game.vjoy.inputEnable(0, 0, 400, 600);
+      game.vjoy.inputEnable();
     },
 
     update: function update() {
